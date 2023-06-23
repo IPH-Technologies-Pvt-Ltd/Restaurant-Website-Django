@@ -1,26 +1,78 @@
-# how to start project
 
-# open project go to manage.py location as - 
-cd srcafe                # ex- in my case  Directory: C:\Users\HP\Desktop\iph\srCafe_django\srcafe
-ls
+# Restaurant Table Booking Python Web App
 
+## Description
+This Python web application allows customers to book tables at a restaurant online. It provides a user-friendly interface for customers to view available tables, select a desired time slot, and make a reservation. The app also includes an admin dashboard for restaurant staff to manage table availability and view customer bookings.
 
-# python manage.py makemigrations
-# python manage.py migrate
+## Features
+- Table Availability: Customers can view the available tables and their availability status.
+- Table Booking: Customers can select a date and time slot, and make a reservation for a specific table.
+- Admin Dashboard: Restaurant staff can manage table availability, view and manage customer bookings.
+- Email Notifications: Automated email notifications sent to customers upon successful booking.
 
-for database - 
-# python manage.py createsuperuser
-name, email,passowrd      note - password is not visual 
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/IPH-Technologies-Pvt-Ltd/Restaurant-Website-Django.git
+   ```
 
+2. Navigate to the project directory:
+   ```bash
+   cd Restaurant-Website-Django
+   ```
 
-start project - 
-# python manage.py runserver
+3. Create and activate a virtual environment (optional, but recommended):
+   ```bash
+   python3 -m venv env
+   source env/bin/activate
+   ```
 
-# open admin dash bord 
-http://127.0.0.1:8000/admin/
+4. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-give email and passowrd   ( note - superuser email and password)
+5. Configure the database:
+   - Create a PostgreSQL database and update the database configuration in `config.py`.
 
+6. Run database make migrations:
+   ```bash
+   python manage.py makemigrations
+   ```
 
-# open website ( HOME PAGE WEBSITE )
-http://127.0.0.1:8000
+7. Run database migrations:
+   ```bash
+   python manage.py migrate
+   ```
+
+8. Start the development server:
+   ```bash
+   python manage.py runserver
+   ```
+
+9. Open the web app in your browser:
+   ```
+   http://localhost:8000/
+   ```
+
+## Usage
+- Upon accessing the web app, customers can create an account or log in if they already have one.
+- Customers can view the available tables, select a date and time slot, and make a reservation.
+- Restaurant staff can access the admin dashboard to manage table availability and view customer bookings.
+
+## Technologies Used
+- Python
+- Django
+- HTML
+- CSS
+- JavaScript
+- SQLite3
+
+## Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please submit an issue or open a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+For any questions or inquiries, please contact [hr@iphtechnologies.com](mailto:hr@iphtechnologies.com)
