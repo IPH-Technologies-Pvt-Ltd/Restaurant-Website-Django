@@ -71,7 +71,11 @@ This Python web application allows customers to book tables at a restaurant onli
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please submit an issue or open a pull request.
 
-## Image
+## Video
+
+
+https://github.com/IPH-Technologies-Pvt-Ltd/Restaurant-Website-Django/assets/130441026/366752de-7c7f-4902-a703-0f94faf5e538
+
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
