@@ -71,6 +71,8 @@ This Python web application allows customers to book tables at a restaurant onli
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please submit an issue or open a pull request.
 
+## Image
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
