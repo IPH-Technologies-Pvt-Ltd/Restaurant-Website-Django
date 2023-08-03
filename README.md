@@ -1,5 +1,10 @@
 
 # Restaurant Table Booking Python Web App
+[![JavaScript](https://img.shields.io/badge/javascript-%2320232a.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Python](https://img.shields.io/badge/python-%2320232a.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![HTML](https://img.shields.io/badge/html-%2320232a.svg?style=for-the-badge&logo=html5&logoColor=%23E34F26)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/css-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=%231572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 
 ## Description
 This Python web application allows customers to book tables at a restaurant online. It provides a user-friendly interface for customers to view available tables, select a desired time slot, and make a reservation. The app also includes an admin dashboard for restaurant staff to manage table availability and view customer bookings.
